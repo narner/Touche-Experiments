@@ -4,9 +4,8 @@ Server server; // will receive predictions
 String messageText;
 PFont f;
 
-void setup()
-{
-  fullScreen(P3D);
+void setup() {
+  fullScreen(FX2D);
   frameRate(600);
   server = new Server(this, 5204); // listen on port 5204
   
@@ -17,8 +16,7 @@ void setup()
   textFont(f, 120);
 }
 
-void draw()
-{
+void draw() {
   // check for incoming data
   Client client = server.available();
   if (client != null) {
