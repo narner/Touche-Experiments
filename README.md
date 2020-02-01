@@ -1,7 +1,7 @@
 # Touché Experiments
 
 This repository contains experiments with implementing an Arduino-based 
-Touché sensor, and the [ESP project](https://github.com/damellis/ESP). 
+[Touché sensor](http://www.ivanpoupyrev.com/project/touche), and the [ESP project](https://github.com/damellis/ESP). 
 
 
 ![Alt Text](https://github.com/narner/Touche-Experiments/raw/master/images/circuit.jpg)
